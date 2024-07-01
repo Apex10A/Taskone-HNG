@@ -27,7 +27,6 @@
 
 .bg {
     background-color: #1A1A1A;
-    
 }
 @media (min-width: 1000px) {
     .bg{
@@ -93,10 +92,17 @@ header h1{
         display: block;
     }
 }
-@media (max-width: 1300px){
+@media (max-width: 1000px){
     .box{
         display: none;
     } 
+}
+@media (min-width: 1300px) {
+    .Goals, .contacts, .links {
+        flex: 1;
+        min-width: 300px;
+    }
+    
 }
 
 .btn{
@@ -123,10 +129,7 @@ header h1{
 }
 
 
-.Goals, .contacts, .links {
-    flex: 1;
-    min-width: 300px;
-}
+
 .Goals h2, .links h2, .co{
     color: #fff;
     padding-bottom: 10px;
@@ -138,6 +141,12 @@ header h1{
     font-weight: 200;
     font-size: 22px;
     line-height: 30px;
+}
+@media (max-width: 1000px) {
+    .Goals p{
+        max-width: 90%;
+    }
+    
 }
 .links h2{
     color: #fff;
@@ -167,6 +176,7 @@ a{
 .contat p{
     color: #A3A3A3;
     font-size: 20px;
+    line-height: 35px;
 }
 /* Existing styles for large devices remain unchanged */
 
@@ -199,6 +209,9 @@ a{
     
     .Goals h2, .links h2, .contact-text h2 {
         font-size: 35px;
+    }
+    .links a{
+        font-size: 20px;
     }
 }
 
