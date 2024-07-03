@@ -58,7 +58,9 @@
 .text-white {
     color: #fff;
 }
-
+.my-name{
+ font-weight: bolder;
+}
 header p{
     font-size: 25px;
     color: #fff;
